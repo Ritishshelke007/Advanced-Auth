@@ -1,0 +1,54 @@
+# Ignore node_modules and logs in both frontend and backend
+**/node_modules
+**/logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore build outputs
+frontend/build
+frontend/.next
+frontend/out
+frontend/.nuxt
+backend/dist
+
+# Ignore environment variable files
+**/.env
+**/.env.local
+**/.env.development.local
+**/.env.test.local
+**/.env.production.local
+
+# Ignore temporary files
+**/tmp
+**/temp
+**/cache
+**/.cache
+**/.parcel-cache
+
+# Ignore IDE/editor specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
+
+# Ignore yarn and npm lock files
+**/yarn.lock
+**/package-lock.json
+
+# Ignore coverage folder (e.g. for Jest)
+**/coverage
+
+# Ignore public or static asset outputs
+frontend/public/static
+frontend/.sass-cache
+frontend/.eslintcache
+frontend/.stylelintcache
+
+# Ignore build artifacts
+**/build/
+**/dist/
+**/out/
